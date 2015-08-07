@@ -13,9 +13,9 @@ public class Main {
 		
 		socket = new DatagramSocket(666);
 		
-		//while(true){
-			//Receive();
-		//}
+		while(true){
+			Receive();
+		}
 	}
 	
 	private static void Receive() throws IOException{
